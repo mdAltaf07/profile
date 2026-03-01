@@ -1,229 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Altaf Khan, a BCA student and freelance Web Developer specializing in HTML, CSS, PHP, and Python. Hire me for static and dynamic website design and web programming services.">
-    <meta name="keywords" content="Freelance Web Developer, HTML CSS Freelancer, PHP Developer, Python Web Development, BCA Student Portfolio, Static Website Designer, MySQL Database, Web Programming Services,altaf,altaf khan,altafkhan,mdaltaf,mdaltafkhan,mohammadaltafkhan,mohammadaltaf,altaf webdevloper,altafweb,altaf pawai,altafpawai,webdevloperpawai,websitemaker,websitemakerpawai,Mohammad Altaf">
 
-    <title>Altaf khan- Web Developer Portfolio | Freelance</title>
-    <link rel="icon" type="image/png" href="WhatsApp Image 2025-08-24 at 19.50.38.jpeg" alt="Mohammad Altaf Profile Photo" 
-     class="w-full h-full object-cover rounded-full">
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome Icons for Social Media -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Custom Styles for Unique Design -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-        
-        /* Custom Variables */
-        :root {
-            --dark-bg: #0d1117; /* GitHub Dark Background */
-            --primary-blue: #2196f3; /* Electric Blue Accent */
-            --text-light: #f0f6fc;
-            --text-subtle: #8b949e;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--dark-bg);
-            color: var(--text-light);
-            line-height: 1.6;
-            scroll-behavior: smooth;
-        }
-        
-        .glass-card {
-            background: rgba(33, 150, 243, 0.05); /* Very slight blue transparency */
-            border: 1px solid rgba(33, 150, 243, 0.2);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            border-radius: 12px;
-            transition: all 0.3s ease-in-out;
-        }
+<title>Mohammad Altaf | Software Developer Portfolio</title>
 
-        .glass-card:hover {
-            box-shadow: 0 0 15px rgba(33, 150, 243, 0.4);
-            transform: translateY(-2px);
-        }
+<script src="https://cdn.tailwindcss.com"></script>
 
-        .accent-text {
-            color: var(--primary-blue);
-        }
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-        /* Responsive Layout for Sections */
-        .section-padding {
-            padding: 4rem 1rem;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
+<style>
 
-        /* Custom underline for titles */
-        h2 {
-            position: relative;
-            padding-bottom: 0.5rem;
-            margin-bottom: 2rem;
-        }
-        h2::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 50px;
-            height: 3px;
-            background-color: var(--primary-blue);
-            border-radius: 2px;
-        }
+body{
+background:#0d1117;
+color:white;
+font-family:Inter, sans-serif;
+}
 
-    </style>
+.section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+.card{
+background:#161b22;
+border:1px solid #30363d;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 0 10px #2196f3;
+}
+
+h2{
+color:#2196f3;
+font-size:28px;
+margin-bottom:25px;
+}
+
+</style>
+
 </head>
-<body class="min-h-screen">
 
-    <!-- 1. HERO SECTION -->
-    <header id="hero" class="section-padding pt-20 flex flex-col md:flex-row items-center justify-between">
-        <!-- Profile Content -->
-        <div class="md:w-3/5 text-center md:text-left">
-            <h1 class="text-3xl font-extrabold mb-2">
-                Hello, I am <span class="accent-text">Altaf</span>
-            </h1>
-            <p class="text-lg font-mono text-gray-400 mb-4">
-                BCA Student | Web Developer & Problem Solver
-            </p>
-            <p class="text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
-                I seek to secure challenging freelance projects where I can utilize my programming and problem-solving skills to contribute effectively to client success and enhance my knowledge.
-            </p>
-            
-            <!-- Contact Info and Social Links -->
-            <div class="mt-8 flex flex-col sm:flex-row sm:items-center justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-8">
-                <a href="#contact" class="px-6 py-3 border border-blue-500 text-blue-500 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300">
-                    <i class="fas fa-handshake mr-2"></i> Get In Touch
-                </a>
-                <div class="social-links flex space-x-6 text-2xl">
-                    <!-- WhatsApp Link -->
-                    <a href="https://wa.me/919406859101" target="_blank" class="text-gray-400 hover:text-green-500 transition duration-300" aria-label="WhatsApp">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <!-- LinkedIn Link -->
-                    <a href="https://www.linkedin.com/in/mohammad-altaf-74a77533a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-gray-400 hover:text-blue-600 transition duration-300" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <!-- Instagram Link -->
-                    <a href="https://www.instagram.com/altaf_khan.92?igsh=MXJyc2tidGR4d3R0ZA==" target="_blank" class="text-gray-400 hover:text-pink-500 transition duration-300" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <!-- Facebook Link -->
-                    <a href="https://www.facebook.com/profile.php?id=100070104702241" target="_blank" class="text-gray-400 hover:text-blue-700 transition duration-300" aria-label="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Profile Image (Placeholder) -->
-        <div class="md:w-2/5 mt-8 md:mt-0 flex justify-center">
-            <div class="relative w-64 h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl p-1 bg-gray-800">
-                <!-- IMPORTANT: Replace this placeholder image URL with your actual photo URL -->
-                <img src="WhatsApp Image 2025-08-24 at 19.50.38.jpeg" 
-                     alt="Mohammad Altaf Profile Photo" 
-                     class="w-full h-full object-cover rounded-full"
-                     onerror="this.onerror=null; this.src='https://placehold.co/256x256/1f2937/a0aec0?text=Photo';"
-                >
-            </div>
-        </div>
-    </header>
+<body>
 
-    <!-- 2. SKILLS SECTION -->
-    <section id="skills" class="section-padding bg-gray-900/50">
-        <h2 class="text-2xl font-bold accent-text">🛠️ My Skills</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
-            <!-- Skill Card -->
-            <div class="glass-card p-4 text-center">
-                <i class="fab fa-html5 text-4xl mb-2 text-orange-500"></i>
-                <p class="font-mono text-sm">HTML</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fab fa-css3-alt text-4xl mb-2 text-blue-500"></i>
-                <p class="font-mono text-sm">CSS</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fab fa-js-square text-4xl mb-2 text-yellow-500"></i>
-                <p class="font-mono text-sm">JavaScript</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fab fa-python text-4xl mb-2 text-sky-400"></i>
-                <p class="font-mono text-sm">Python</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fab fa-php text-4xl mb-2 text-indigo-500"></i>
-                <p class="font-mono text-sm">PHP</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fab fa-java text-4xl mb-2 text-red-500"></i>
-                <p class="font-mono text-sm">Java</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fas fa-database text-4xl mb-2 text-gray-400"></i>
-                <p class="font-mono text-sm">MySQL</p>
-            </div>
-            <div class="glass-card p-4 text-center">
-                <i class="fas fa-chart-bar text-4xl mb-2 text-cyan-400"></i>
-                <p class="font-mono text-sm">R Programming</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- 3. CERTIFICATION SECTION (UDYAM) - Unique Design -->
-    <section id="certification" class="section-padding">
-        <h2 class="text-2xl font-bold accent-text">📜 Government Certification</h2>
-        <div class="cert-box glass-card p-6 md:p-8 mt-8 text-center border-yellow-500/50">
-            <i class="fas fa-award text-5xl text-yellow-500 mb-4"></i>
-            <h3 class="text-2xl font-extrabold mb-3 text-yellow-400">
-                Government of India - Udyam Registration Certificate
-            </h3>
-            <p class="text-gray-300 mb-5">
-                This certification strengthens my official status for Business/Website Development under the Government of India, providing high credibility for my freelance work.
-            </p>
-            <a href="Screenshot 2025-11-11 at 00.08.13.png" target="_blank" class="px-6 py-2 bg-yellow-500 text-gray-900 font-semibold rounded-lg hover:bg-yellow-400 transition duration-300 shadow-lg shadow-yellow-500/30">
-                <i class="fas fa-external-link-alt mr-2"></i> View Certificate
-            </a>
-        </div>
-    </section>
+<!-- HERO -->
 
-    <!-- 4. PROJECTS SECTION -->
-    <section id="projects" class="section-padding bg-gray-900/50">
-        <h2 class="text-2xl font-bold accent-text">💡 My Projects</h2>
-        <div class="glass-card p-6 mt-8">
-            <h3 class="text-xl font-bold mb-2 accent-text">Web Development Project</h3>
-            <p class="text-sm font-mono text-gray-400 mb-4">HTML | CSS | Static Site</p>
-            <p class="text-gray-300 mb-4">
-                I created a static site for a friend. This solution is usable for both the computer operator and the consumer, streamlining operations and eliminating the need to visit multiple sites.
-            </p>
-            <div class="project-links flex space-x-4">
-                <a href="https://github.com/mdAltaf07" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                    <i class="fab fa-github mr-1"></i> GitHub
-                </a>
-                <a href="https://deepaksahumponline.shop" target="_blank" class="text-gray-400 hover:text-blue-500 transition duration-300">
-                    <i class="fas fa-external-link-alt mr-1"></i> Live Demo
-                </a>
-            </div>
-        </div>
-        <!-- Add more project cards here -->
-    </section>
+<section class="section flex flex-col md:flex-row items-center justify-between">
 
-    <!-- 5. CONTACT SECTION -->
-    <section id="contact" class="section-padding">
-        <h2 class="text-2xl font-bold accent-text">📞 Contact Details</h2>
-        <div class="mt-8 space-y-4">
-            <p class="text-lg"><i class="fas fa-envelope mr-3 accent-text"></i> Email: <a href="mailto:mdaltaf6292@gmail.com" class="hover:underline">mdaltaf6292@gmail.com</a></p>
-            <p class="text-lg"><i class="fas fa-phone-alt mr-3 accent-text"></i> Phone: <a href="tel:+919406859101" class="hover:underline">+91 8827083076</a></p>
-            <p class="text-lg"><i class="fas fa-map-marker-alt mr-3 accent-text"></i> Location: Sagar, India</p>
-        </div>
-    </section>
+<div class="md:w-3/5">
 
-    <!-- Footer -->
-    <footer class="text-center py-6 border-t border-gray-700/50">
-        <p class="text-sm text-gray-500">&copy; 2025 ALTAF KHAN All rights reserved.</p>
-    </footer>
+<h1 class="text-4xl font-bold mb-3">
+Hello, I am <span style="color:#2196f3">Altaf</span>
+</h1>
+
+<p class="text-gray-400 mb-4">
+BCA Student | Software Developer
+</p>
+
+<p class="text-gray-300 mb-6">
+I am a BCA student at Dr. Hari Singh Gour University Sagar with strong interest in programming and web development. I enjoy building websites and solving real-world problems using code.
+</p>
+
+<a href="#contact"
+class="px-5 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white">
+Contact Me
+</a>
+
+</div>
+
+<div class="mt-8 md:mt-0">
+
+<img src=""
+class="w-60 h-60 rounded-full border-4 border-blue-500 object-cover">
+
+</div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section class="section">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+I am Mohammad Altaf, currently pursuing Bachelor of Computer Applications (BCA) from Dr. Hari Singh Gour University Sagar.
+
+My interest lies in software development, web programming and problem solving.
+
+I work with technologies like HTML, CSS, JavaScript, PHP, Python, MySQL, C, C++ and R Programming.
+
+My goal is to grow as a professional software developer and contribute to real-world projects.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section class="section">
+
+<h2>Skills</h2>
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+<div class="card text-center">
+<i class="fab fa-html5 text-4xl text-orange-500"></i>
+<p>HTML</p>
+</div>
+
+<div class="card text-center">
+<i class="fab fa-css3 text-4xl text-blue-500"></i>
+<p>CSS</p>
+</div>
+
+<div class="card text-center">
+<i class="fab fa-js text-4xl text-yellow-400"></i>
+<p>JavaScript</p>
+</div>
+
+<div class="card text-center">
+<i class="fab fa-python text-4xl text-blue-400"></i>
+<p>Python</p>
+</div>
+
+<div class="card text-center">
+<i class="fab fa-php text-4xl text-indigo-400"></i>
+<p>PHP</p>
+</div>
+
+<div class="card text-center">
+<i class="fas fa-database text-4xl text-gray-400"></i>
+<p>MySQL</p>
+</div>
+
+<div class="card text-center">
+<p class="text-xl">C / C++</p>
+</div>
+
+<div class="card text-center">
+<p class="text-xl">R Programming</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- EDUCATION -->
+
+<section class="section">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3 class="text-xl font-semibold">
+Bachelor of Computer Applications (BCA)
+</h3>
+
+<p class="text-gray-400">
+Dr. Hari Singh Gour University, Sagar
+</p>
+
+<p class="text-gray-500">
+Expected Graduation: 2026
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- CERTIFICATIONS -->
+
+<section class="section">
+
+<h2>Certifications</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+
+<div class="card text-center">
+
+<i class="fas fa-certificate text-4xl text-blue-400 mb-3"></i>
+
+<h3 class="font-bold">CPCT</h3>
+
+<p class="text-gray-400 text-sm mb-4">
+Computer Proficiency Certification Test (MP Government)
+</p>
+
+<a href="1914194.pdf" target="_blank"
+class="border border-blue-500 px-4 py-1 rounded hover:bg-blue-500">
+View Certificate
+</a>
+
+</div>
+
+
+
+<div class="card text-center">
+
+<i class="fas fa-award text-4xl text-yellow-400 mb-3"></i>
+
+<h3 class="font-bold">IDEATHON</h3>
+
+<p class="text-gray-400 text-sm mb-4">
+Internal Hackathon (SIH 2025)
+</p>
+
+<a href="ideathon.pdf" target="_blank"
+class="border border-yellow-500 px-4 py-1 rounded hover:bg-yellow-500">
+View Certificate
+</a>
+
+</div>
+
+
+
+<div class="card text-center">
+
+<i class="fas fa-graduation-cap text-4xl text-green-400 mb-3"></i>
+
+<h3 class="font-bold">UNXT by Unnati</h3>
+
+<p class="text-gray-400 text-sm mb-4">
+165 Hours Soft Skills Program
+</p>
+
+<a href="unxt.pdf" target="_blank"
+class="border border-green-500 px-4 py-1 rounded hover:bg-green-500">
+View Certificate
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section class="section">
+
+<h2>Projects</h2>
+
+<div class="card mb-6">
+
+<h3 class="text-xl font-bold">DeepakSahuMPOnline.shop</h3>
+
+<p class="text-gray-400 mb-3">
+MP Online service website using HTML, CSS and JavaScript.
+</p>
+
+<a href="https://deepaksahumponline.shop"
+target="_blank"
+class="text-blue-400">
+Live Website
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3 class="text-xl font-bold">Mosam.store</h3>
+
+<p class="text-gray-400 mb-3">
+E-commerce clothing website with simple user interface.
+</p>
+
+<a href="https://mosam.store"
+target="_blank"
+class="text-blue-400">
+Live Website
+</a>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<div class="card space-y-3">
+
+<p>
+<i class="fas fa-envelope"></i>
+mdaltaf6292@gmail.com
+</p>
+
+<p>
+<i class="fas fa-phone"></i>
+123XXXX123
+</p>
+
+<p>
+<i class="fas fa-map-marker-alt"></i>
+Panna, Madhya Pradesh
+</p>
+
+<div class="flex gap-4 text-xl mt-3">
+
+<a href="https://github.com/mdAltaf07">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/mohammad-altaf-74a77533a">
+<i class="fab fa-linkedin"></i>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer class="text-center pb-6 text-gray-500">
+© 2026 Altaf
+</footer>
+
 
 </body>
 </html>
